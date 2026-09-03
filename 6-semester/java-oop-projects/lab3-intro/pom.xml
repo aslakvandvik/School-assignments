@@ -3,12 +3,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>this OOP course</groupId>
+  <groupId>OOP</groupId>
   <artifactId>lab3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>this OOP course lab3</name>
-  <url>https://git.app.uib.no/ii/this OOP course/26v/students/lab3</url>
+  <name>OOP lab3</name>
+  <url>https://git.app.uib.no/ii/oop/26v/students/lab3</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

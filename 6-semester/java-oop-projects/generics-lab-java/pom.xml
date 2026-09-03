@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>this OOP course</groupId>
+  <groupId>OOP</groupId>
   <artifactId>lab6</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>lab6</name>
-  <url>https://git.app.uib.no/ii/this OOP course/26v/students/lab-6-generics-v-26</url>
+  <url>https://git.app.uib.no/ii/oop/26v/students/lab-6-generics-v-26</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

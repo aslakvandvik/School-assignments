@@ -19,7 +19,7 @@ public class Lab1 {
     public static void task1() {
         System.out.println("Hei, det er meg, datamaskinen.");
         System.out.println("Hyggelig å se deg her.");
-        System.out.println("Lykke til med this OOP course!");
+        System.out.println("Lykke til med OOP!");
     }
 
     public static void task2() {

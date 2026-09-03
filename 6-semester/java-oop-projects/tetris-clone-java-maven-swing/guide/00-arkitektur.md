@@ -21,7 +21,7 @@ For å representere Tetris trenger vi to sentrale elementer:
 - Et **brett** med ruter.  
 - En **fallende brikke**.  
 
-Vi definerer følgende klasser i pakken `this OOP course.tetris.model`:  
+Vi definerer følgende klasser i pakken `oop.tetris.model`:  
 - **`TetrisModel`** – representerer logikken i spillet og holder styr på brettet, den fallende brikken og om spillet er over.  
 - **`TetrisBoard`** – representerer rutenettet brettet består av.  
 - **`Tetromino`** – representerer en Tetris-brikke.  
@@ -29,18 +29,18 @@ Vi definerer følgende klasser i pakken `this OOP course.tetris.model`:
 Modellen er den viktigste delen av koden, og vi må sikre at den er **godt testet**.  
 
 ### **🎨 Visning (View)**  
-For å tegne modellen lager vi klassen `TetrisView` i pakken `this OOP course.tetris.view`. Denne klassen skal:  
+For å tegne modellen lager vi klassen `TetrisView` i pakken `oop.tetris.view`. Denne klassen skal:  
 1. Tegne brettet.  
 2. Tegne den fallende brikken over brettet.  
 
-For å unngå uønskede endringer i modellen når vi tegner den, definerer vi et grensesnitt `ViewableTetrisModel` i `this OOP course.tetris.view`, som spesifiserer hvilke metoder `TetrisView` har tilgang til. `TetrisModel` implementerer dette grensesnittet, men `TetrisView` vil aldri vite at den jobber direkte med `TetrisModel`.  
+For å unngå uønskede endringer i modellen når vi tegner den, definerer vi et grensesnitt `ViewableTetrisModel` i `oop.tetris.view`, som spesifiserer hvilke metoder `TetrisView` har tilgang til. `TetrisModel` implementerer dette grensesnittet, men `TetrisView` vil aldri vite at den jobber direkte med `TetrisModel`.  
 
 ### **🎮 Kontroller (Controller)**  
-For å håndtere brukerinput og styre automatisk fallende brikker lager vi klassen `TetrisController` i pakken `this OOP course.tetris.controller`. Denne klassen:  
+For å håndtere brukerinput og styre automatisk fallende brikker lager vi klassen `TetrisController` i pakken `oop.tetris.controller`. Denne klassen:  
 - Endrer modellen basert på tastetrykk fra brukeren.  
 - Styrer hvordan brikken faller automatisk over tid.  
 
-For å holde modellen innkapslet definerer vi grensesnittet `ControllableTetrisModel` i `this OOP course.tetris.controller`, som beskriver hvilke metoder kontrolleren trenger. `TetrisModel` implementerer dette grensesnittet, slik at `TetrisController` kan styre modellen uten å ha direkte tilgang til all dens funksjonalitet.  
+For å holde modellen innkapslet definerer vi grensesnittet `ControllableTetrisModel` i `oop.tetris.controller`, som beskriver hvilke metoder kontrolleren trenger. `TetrisModel` implementerer dette grensesnittet, slik at `TetrisController` kan styre modellen uten å ha direkte tilgang til all dens funksjonalitet.  
 
 ---
 

@@ -26,7 +26,7 @@ public class Lab1Test {
         String[] output = outputStream.toString().split("\n");
         assertEquals("Hei, det er meg, datamaskinen.", output[0].trim());
         assertEquals("Hyggelig å se deg her.", output[1].trim());
-        assertEquals("Lykke til med this OOP course!", output[2].trim());
+        assertEquals("Lykke til med OOP!", output[2].trim());
     }
 
     // ############ task2 ############

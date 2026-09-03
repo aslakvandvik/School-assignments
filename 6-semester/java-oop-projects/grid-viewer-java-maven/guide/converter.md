@@ -8,7 +8,7 @@ I steg 5 har vi behov for å lage **`CellPositionToPixelConverter`**, en hjelpek
 
 ## **1️⃣ Opprett `CellPositionToPixelConverter`-klassen**  
 
-Lag en ny klasse **`CellPositionToPixelConverter`** i pakken **`no.uib.this OOP course.view`**.  
+Lag en ny klasse **`CellPositionToPixelConverter`** i pakken **`no.uib.oop.view`**.  
 Denne klassen skal hjelpe med å konvertere **celleposisjoner** til **pikselkoordinater** innenfor en gitt **tegneflate (box)**.  
 
 ---

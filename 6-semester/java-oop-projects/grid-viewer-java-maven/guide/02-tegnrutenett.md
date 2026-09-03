@@ -6,13 +6,13 @@ I denne oppgaven skal du lage en visuell fremstilling av gridet ved å implement
 
 [<img src="./pics/example_grid.png" width="250">](./pics/example_grid.png)
 
-### For de følgende stegene vil du kunne finne mye nyttig kode i [notatene om grafikk](https://this OOP coursev23.stromme.me/notat/grafikk/) 
+### For de følgende stegene vil du kunne finne mye nyttig kode i [notatene om grafikk](https://oopv23.stromme.me/notat/grafikk/) 
 
 ---
 
 ## **1️⃣ Opprett `GridView`-klassen**  
 
-Opprett en ny klasse **`GridView`** i pakken **`no.uib.this OOP course.view`**.  
+Opprett en ny klasse **`GridView`** i pakken **`no.uib.oop.view`**.  
 Denne klassen skal utvide **`JPanel`**, som lar oss tegne gridet i et Swing-vindu.  
 ```java
 public class GridView extends JPanel {
@@ -92,7 +92,7 @@ Metode drawGrid(g2):
     Opprett CellPositionToPixelConverter med grid-dimensjoner og margin
     Kall drawCells(g2, converter, grid) for å tegne cellene
 ```
-**Igjen, her vil du kunne finne mye nyttig kode i [notatene om grafikk](https://this OOP coursev23.stromme.me/notat/grafikk/).**
+**Igjen, her vil du kunne finne mye nyttig kode i [notatene om grafikk](https://oopv23.stromme.me/notat/grafikk/).**
 
 ---
 

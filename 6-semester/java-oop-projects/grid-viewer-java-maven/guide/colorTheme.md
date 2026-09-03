@@ -8,7 +8,7 @@ I GridView trenger vi **`ColorTheme`**, en hjelpeklasse som definerer fargevalg 
 
 ## **1️⃣ Opprett `ColorTheme`-klassen**  
 
-Lag en ny klasse **`ColorTheme`** i pakken **`no.uib.this OOP course.view`**.  
+Lag en ny klasse **`ColorTheme`** i pakken **`no.uib.oop.view`**.  
 Denne klassen skal håndtere fargevalg for **Cellene i rutenettet**. Valg av farge skal baseres på symbolene vi finner i gridet, altså hvilken `Character`-verdi hver celle har.  
 
 ---

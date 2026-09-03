@@ -85,7 +85,7 @@ Dette sikrer at **testene dine ikke feiler unødvendig** på grunn av små avrun
 ## **📊 Sjekk testene dine**
 Kjør **`GradeUnaryTests`** for å sjekke at testene dine er gode nok. Du kan kjøre dem i IDE-en din eller med Maven:
 ```sh
-mvn test -pl . -Dtest="no.uib.this OOP course.calculator.operations.GradeUnaryTests"
+mvn test -pl . -Dtest="no.uib.oop.calculator.operations.GradeUnaryTests"
 ```
 🚀 **Du er ferdig med dette steget når alle testene i `LnMutationTests`, `LogMutationTests` og RootMutationTests passerer!**
 

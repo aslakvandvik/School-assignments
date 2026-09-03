@@ -26,7 +26,7 @@ For å tegne hva som skjer på brettet, skal vi bruke noen ekstra klasser som hj
 
 ## **🛠️ TODO – Implementer `TetrisBoard`**  
 
-✅ opprett `TetrisBoard` i pakken `no.uib.this OOP course.tetris.model`, denne klassen skal implementere de to interfacene ´Iterable´ og ´GridDimension´.
+✅ opprett `TetrisBoard` i pakken `no.uib.oop.tetris.model`, denne klassen skal implementere de to interfacene ´Iterable´ og ´GridDimension´.
 
 ```java
 public class TetrisBoard implements Iterable<GridCell>, GridDimension {

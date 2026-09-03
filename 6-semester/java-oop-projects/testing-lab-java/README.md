@@ -37,7 +37,7 @@ Nå har vi utvidet kalkulatoren med **unære operatorer**, som bare tar ett argu
 Koden du får ut fungerer, kjør Main.java og sjekk at dein kode kjører.
 
 🛠️ **For å gjennomføre denne labben må du ha installert Maven.** 
-Hvis du ikke har gjort dette ennå, kan du følge [denne guiden fra Lab 4 V25](https://git.app.uib.no/ii/this OOP course/25v/students/lab-4/-/blob/main/guide/maven.md).
+Hvis du ikke har gjort dette ennå, kan du følge [denne guiden fra Lab 4 V25](https://git.app.uib.no/ii/oop/25v/students/lab-4/-/blob/main/guide/maven.md).
 
 ---
 

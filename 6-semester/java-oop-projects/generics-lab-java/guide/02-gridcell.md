@@ -27,7 +27,7 @@ Nå vil ikke koden kompilere lenger.
 Finn alle stedene koden ikke kompilerer og erstatt CellColor og CellText med en GridCell som har rett parameter.
 
 ## Test
-* Sett inn denne testen i den tomme testklassen `GridCellTest.java` som ligger i testmappen under pakken `no.uib.this OOP course.datastructure`. Hvis alt er gjort riktig skal testen passere og heller ikke gi røde streker eller kompilasjonsfeil:
+* Sett inn denne testen i den tomme testklassen `GridCellTest.java` som ligger i testmappen under pakken `no.uib.oop.datastructure`. Hvis alt er gjort riktig skal testen passere og heller ikke gi røde streker eller kompilasjonsfeil:
 
 ```Java
 @Test

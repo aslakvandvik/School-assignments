@@ -17,8 +17,8 @@ Kalkulatoren fungerer som den er nå, men den er designet på en måte som gjør
 1. **Klon og kjør programmet** – bekreft at kalkulatoren fungerer som forventet. Foreløpig støttes kun addisjon (`+`).  
 2. **Sjekk testene** i `ExpressionTest.java` – alle skal passere ✅
 3. **Forstå konsepter**:  
-   - Hva er et *interface*? ([Les her](https://this OOP coursev23.stromme.me/notat/grensesnitt/))  
-   - Hva er polymorfisme? ([Les her](https://this OOP coursev23.stromme.me/notat/grensesnitt/#polymorfisme-med-grensesnitt))  
+   - Hva er et *interface*? ([Les her](https://oopv23.stromme.me/notat/grensesnitt/))  
+   - Hva er polymorfisme? ([Les her](https://oopv23.stromme.me/notat/grensesnitt/#polymorfisme-med-grensesnitt))  
 
 ## Guide  
 

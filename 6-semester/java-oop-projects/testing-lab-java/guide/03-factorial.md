@@ -7,7 +7,7 @@ I denne delen skal du skrive dine første tester ved hjelp av **JUnit 5**.
 
 ## **📝 TODO 1 – Opprett testklasse**
 
-📌 **Oppgave:** Opprett test klassen **`UnaryOperatorsTest`** i pakken **`no.uib.this OOP course.calculator.operations`**.
+📌 **Oppgave:** Opprett test klassen **`UnaryOperatorsTest`** i pakken **`no.uib.oop.calculator.operations`**.
 Pass på at det er under test mappen og ikke under main mappen du lager filen.
 
 For å skrive tester med **JUnit 5**, må du importere følgende:
@@ -117,7 +117,7 @@ Spesialtilfelle: **0! = 1** (per definisjon).
 ## Fullført?
 Kjør **`FactorialMutationTests`** for å sjekke at testene dine for fakultet er gode nok. Du kan kjøre dem i IDE-en din eller med Maven:
 ```
-mvn test -pl . -Dtest="no.uib.this OOP course.calculator.operations.FactorialMutationTests"
+mvn test -pl . -Dtest="no.uib.oop.calculator.operations.FactorialMutationTests"
 ```
 🚀 **Du har fullført dette steget av labben når alle testene i `FactorialMutationTests` passerer!**
 

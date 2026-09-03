@@ -47,11 +47,11 @@ For å få bestått må du oppnå **minst 5 av 12 poeng**.
 | **Kategori**                   | **Poeng** | **Hva vurderes?** 
 |--------------------------------|-----------|----------------------------------
 | **Funksjonalitet**             | **4**     | Fungerer spillet? Vi kjører spillet og ser at alt fungerer. 
-| **Dokumentasjon og kodestil**  | **3**     | Har du gode variabelnavn og [Javadocs](https://this OOP coursev23.stromme.me/notat/stil/#javadoc)? Følger du MVC prinsippet? Bruker du interfaces og encapsulation rett?
+| **Dokumentasjon og kodestil**  | **3**     | Har du gode variabelnavn og [Javadocs](https://oopv23.stromme.me/notat/stil/#javadoc)? Følger du MVC prinsippet? Bruker du interfaces og encapsulation rett?
 | **Testing**                    | **3**     | Tester du både normale og spesielle tilfeller? 
 | **Svar på spørsmål**           | **2**     | Er svarene dine presise og korrekte? |
 
-👉 **Detaljerte rettningslinjer for hvordan du skal skrive koden din finner du i vår [stilguide](https://this OOP coursev23.stromme.me/notat/stil/).**  
+👉 **Detaljerte rettningslinjer for hvordan du skal skrive koden din finner du i vår [stilguide](https://oopv23.stromme.me/notat/stil/).**  
 (Dette er en tilpasset versjon av [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)).  
 
 ---

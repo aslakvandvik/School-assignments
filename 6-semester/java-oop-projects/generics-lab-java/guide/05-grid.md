@@ -2,7 +2,7 @@
 
 ## Oppgave 5: Gjør ColorGrid generisk
 
-Vi er endelig kommet fram til å lage et generisk `Grid` som kan erstatte `ColorGrid` og `TextGrid`. Denne nye, generiske klassen `Grid` kommer til å være nyttig videre i this OOP course.
+Vi er endelig kommet fram til å lage et generisk `Grid` som kan erstatte `ColorGrid` og `TextGrid`. Denne nye, generiske klassen `Grid` kommer til å være nyttig videre i OOP.
 
 **TODO:**
 * Opprett ``Grid`` som en generisk klasse.

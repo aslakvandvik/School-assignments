@@ -1,5 +1,5 @@
 # Oppsett av Java, Git og Visual Studio Code
-_Dette dokumentet beskriver hvordan du installerer programvaren du trenger for this OOP course - vår 2026._
+_Dette dokumentet beskriver hvordan du installerer programvaren du trenger for OOP - vår 2026._
 
 Målet med denne guiden er å installere og bli kjent med:
 
@@ -29,7 +29,7 @@ Selv om de fleste elementer av Java vi kommer til å bruke i dette kurset har v�
 * Last ned Java 25 Eclipse Temurin JDK fra [https://adoptium.net/](https://adoptium.net/)
     * Eldre Mac: om du har en Mac med Intel-prosessor, gå til «other platforms and versions» og velg macOS med x64 -arkitektur. Last ned .pkg -filen.
     * Windows: når du klikker deg gjennom installasjonen, pass på at du inkluderer «Add to PATH» og «Set JAVA_HOME variable». Her kan du lære mer om [Environment variables](https://www.baeldung.com/java-home-vs-path-env-var). 
-    Det er heller ikke feil å inkludere «JavaSoft (Oracle) registry keys», men dette betyr ingenting for this OOP course.
+    Det er heller ikke feil å inkludere «JavaSoft (Oracle) registry keys», men dette betyr ingenting for OOP.
 
 * [Alternative instruksjoner for Windows](InstallereJavaWindows.md)
 * [Alternative instruksjoner for Mac](InstallereJavaMac.md)
@@ -104,7 +104,7 @@ Du kan laste ned [Eclipse IDE for Java Developers](https://www.eclipse.org/downl
 
 Velg riktig mappe for Java 25-installasjonen din før du trykker på INSTALL. Hvis du ikke ser Java 25 i nedtrekksmenyen kan du finne riktig mappe ved å gå til terminalen din og skrive kommandoen `which java` i Linux/Unix/Mac OS X eller `gcm java` i Windows PowerShell (Alternativer for Windows: se https://superuser.com/a/367408).
 
-Når du er ferdig å installere Eclipse kan du åpne den og velge et passende navn for ditt workspace. F.eks.: "workspace - this OOP coursev23".
+Når du er ferdig å installere Eclipse kan du åpne den og velge et passende navn for ditt workspace. F.eks.: "workspace - OOPv23".
 
 Når Eclipse allerede er åpen finner du versjons-informasjon i menyen under Eclipse -> About Eclipse for Mac og Help -> About Eclipse for Windows.
 Mer informasjon om å [installere Eclipse](https://www.eclipse.org/downloads/packages/installer)
@@ -202,7 +202,7 @@ Når alle testene passerer må du laste opp endringene du har gjort i koden. Det
 
 
 ### Laste ned prosjektet fra GitLab
-1. Gå til hovedsiden for dette repositoriet. Du er her sannsynligvis allerede, så det er egentlig ingenting å gjøre; men det kan være greit å ha to kopier oppe for å følge instruksjonene videre. https://git.app.uib.no/ii/this OOP course/23v/students/lab0.
+1. Gå til hovedsiden for dette repositoriet. Du er her sannsynligvis allerede, så det er egentlig ingenting å gjøre; men det kan være greit å ha to kopier oppe for å følge instruksjonene videre. https://git.app.uib.no/ii/oop/23v/students/lab0.
 2. Lag en "fork" (kopi) av dette repositoriet: Klikk på knappen oppe til høyre: <img src="images/fork.png" height="20"/>
     - Velg din egen bruker som namespace.
     - Sett synligheten til prosjektet som *private*. Dette skal være standard-valget, så ikke endre det til noe annet.
@@ -210,7 +210,7 @@ Når alle testene passerer må du laste opp endringene du har gjort i koden. Det
 3. Åpne din egen versjon av dette repositoriet. Du finner det på din profil-side på git.app.uib.no.
 4. Klon prosjektet til din lokale maskin
     - Klikk på *clone* i repositoriet, og kopier adressen generert for å laste ned via ssh<br/><img src="images/clone.png" height="150"/>
-    - I terminalen på din maskin (i Windows: Git Bash), naviger til en egnet mappe, for eksempel *this OOP coursev23* -mappen din. Bruk kommandoen:<br/>
+    - I terminalen på din maskin (i Windows: Git Bash), naviger til en egnet mappe, for eksempel *oopv23* -mappen din. Bruk kommandoen:<br/>
     `git clone <lim inn adresse her>`<br/>
     - Sjekk med kommandoen `ls` at det ble opprettet en ny mappe *lab0*.
 

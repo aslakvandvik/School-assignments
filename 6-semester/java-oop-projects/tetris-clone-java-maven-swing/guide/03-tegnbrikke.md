@@ -17,7 +17,7 @@ For å kunne tegne en tetromino på brettet må vi først lage en modell som rep
 
 ## 🏗️ Modellering av en Tetromino
 
-Vi starter med å opprette en pakke _no.uib.this OOP course.tetris.model.**tetromino**_. Her lager vi følgende:
+Vi starter med å opprette en pakke _no.uib.oop.tetris.model.**tetromino**_. Her lager vi følgende:
 - 🏭 Et grensesnitt `TetrominoFactory`
 - 🧩 En klasse `Tetromino`
 - 🎲 En klasse `RandomTetrominoFactory`
@@ -75,7 +75,7 @@ For å kunne sammenligne tetrominoer, implementer:
 ### ✅ Testing av Tetromino
 
 For å sikre at `Tetromino` fungerer som forventet:
-- 🧪 Opprett `TestTetromino` i pakken `no.uib.this OOP course.tetris.model.tetromino`.
+- 🧪 Opprett `TestTetromino` i pakken `no.uib.oop.tetris.model.tetromino`.
 - 🔬 Skriv tester for `hashCode` og `equals`.
 - 🔄 Skriv en test for `iterator`-metoden.
 - 🎯 Test at flytting fungerer korrekt.

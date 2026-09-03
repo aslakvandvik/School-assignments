@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- Major project properties -->
-  <groupId>no.uib.this OOP course</groupId> <!-- must match package of Main class -->
-  <artifactId>this OOP courseGridViewer</artifactId>
+  <groupId>no.uib.oop</groupId> <!-- must match package of Main class -->
+  <artifactId>OOPGridViewer</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>this OOP course Grid Lab</name>
-  <url>https://git.app.uib.no/ii/this OOP course/26v/students/lab-5-GridViewer</url>
+  <name>OOP Grid Lab</name>
+  <url>https://git.app.uib.no/ii/oop/26v/students/lab-5-GridViewer</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

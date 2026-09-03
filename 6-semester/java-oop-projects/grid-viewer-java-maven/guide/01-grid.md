@@ -1,6 +1,6 @@
 # **Steg 1 – Implementering av Grid**  
 
-I denne oppgaven skal du implementere klassene `Grid`, `CellPosition` og `GridCell` i pakken **no.uib.this OOP course.grid**. Dette gridet skal fylles opp med datatypen `Character` (objektversjonen av `char`).
+I denne oppgaven skal du implementere klassene `Grid`, `CellPosition` og `GridCell` i pakken **no.uib.oop.grid**. Dette gridet skal fylles opp med datatypen `Character` (objektversjonen av `char`).
 ✅ **Målet er at alle medfølgende tester skal kjøre uten feil når implementasjonen er fullført.**  
 
 ---

@@ -36,7 +36,7 @@ Implementer metoden `Lab1::task1`. Metoden skal skrive ut akkurat følgende outp
 ```
 Hei, det er meg, datamaskinen.
 Hyggelig å se deg her.
-Lykke til med this OOP course!
+Lykke til med OOP!
 ```
 
 > ❓ `::` er en operator som brukes til å kalle en metode ved hjelp av klassenavnet. Her brukes det til å referere til
