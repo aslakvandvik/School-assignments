@@ -3,7 +3,7 @@
 Programming coursework from my Bachelor's in Informatics at the University of Bergen, organized by semester and course. Each course folder name notes the main technologies used. Non-programming courses (math, statistics, economics, and write-up-only courses) are left out.
 
 ## 1. semester
-- **INFO100-python-html-sql** — Python, HTML, XML, SQL (intro programming)
+- **INFO132-python-html-sql** — Python, HTML, XML, SQL (intro programming)
 
 ## 2. semester
 - **INFO135-python-datastructures-algorithms** — Python (data structures, sorting algorithms)
