@@ -1,0 +1,42 @@
+@prefix ex: <http://example/org#> .
+
+ex:Mueller_Investigation ex:involved ex:George_Papadopoulos,
+        ex:Michael_Cohen,
+        ex:Michael_Flynn,
+        ex:Paul_Manafort,
+        ex:Rick_Gates,
+        ex:Roger_Stone ;
+    ex:leadBy ex:Robert_Mueller .
+
+ex:Michael_Cohen ex:attorneyFor ex:Donald_Trump ;
+    ex:pleadedGuilty ex:Michael_Cohens_Lying .
+
+ex:Michael_Cohens_Lying a ex:Lying ;
+    ex:wasLyingAbout ex:Trump_RealEstateDeal ;
+    ex:wasLyingTo ex:Congress .
+
+ex:Michael_Flynn ex:adviserTo ex:Donald_Trump ;
+    ex:negotiatedAgreement ex:PleaAgreement ;
+    ex:pleadedGuilty ex:Michael_Flynns_Lying .
+
+ex:Michael_Flynns_Lying a ex:Lying ;
+    ex:wasLyingTo ex:FBI .
+
+ex:Paul_Manafort ex:campaignManager ex:Donald_Trump ;
+    ex:chargedWith ex:ForeignLobbying,
+        ex:MoneyLaundering,
+        ex:TaxEvasion ;
+    ex:convictedFor ex:BankAndTaxFraud ;
+    ex:hasBusinessPartner ex:Rick_Gates ;
+    ex:negotiatedAgreement ex:PleaAgreement ;
+    ex:pleadedGuilty ex:Conspiracy ;
+    ex:sentencedTo ex:Prison .
+
+ex:Rick_Gates_Lying a ex:Lying ;
+    ex:wasLyingTo ex:FBI .
+
+ex:Rick_Gates ex:chargedWith ex:ForeignLobbying,
+        ex:MoneyLaundering,
+        ex:TaxEvasion ;
+    ex:pleadedGuilty ex:Conspiracy,
+        ex:Rick_Gates_Lying .

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script defer src="interactivity.js"></script>
+    <title>Superspareren</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html"> Supersparer</a></h1>
+      <nav>
+        <ul>
+          <li>
+            <a class="page-button" href="smaspareren.html">Småspareren</a>
+          </li>
+          <li>
+            <a class="page-button" href="prisjakteren.html">Prisjakteren</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="income-expense">
+        <h2>Din oversikt</h2>
+        <p>
+          Vi har samlet ditt månedlige forbruk sammen med sparemålet ditt her.
+          Ta en titt og se hvor nære du er å nå målet ditt. Vi heier på deg hver
+          dag!
+        </p>
+        <br />
+        <br />
+        <div id="chart-container">
+          <canvas id="expense-chart" width="400" height="200"></canvas>
+        </div>
+      </section>
+      <br /><br />
+      <p id="infoOmOss">
+        Superspareren har som mål å forenkle spareprosessen for deg, uavhengig
+        av hvilke økonomiske valg du tar. Vi kombinerer automatisert sparing med
+        nøye prisovervåkning for å sikre at hver krone du bruker også resulterer
+        i økonomisk vekst. Vår tilnærming er preget av effektivitet og
+        miljøbevissthet, med det ultimate målet om å maksimere avkastningen for
+        våre kunder og gjøre dem til erfarne sparere.
+      </p>
+    </main>
+    <footer>
+      <p>&copy; 2023 Mads, Aslak, Thea, Anna, Stefan</p>
+    </footer>
+    <div id="chart-container"></div>
+  </body>
+</html>

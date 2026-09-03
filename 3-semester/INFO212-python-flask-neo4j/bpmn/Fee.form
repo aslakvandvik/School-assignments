@@ -1,0 +1,37 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "fee-1icpbwp",
+  "components": [
+    {
+      "label": "Fee value",
+      "type": "number",
+      "layout": {
+        "row": "Row_1cmhr6p",
+        "columns": null
+      },
+      "id": "Field_1w0we2a",
+      "key": "number_weaiix",
+      "validate": {
+        "min": 10,
+        "max": 1000
+      }
+    },
+    {
+      "label": "Register fee to user credit card",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1upjruy",
+        "columns": null
+      },
+      "id": "Field_0rf1afh",
+      "key": "checkbox_ecji2l"
+    }
+  ],
+  "type": "default"
+}

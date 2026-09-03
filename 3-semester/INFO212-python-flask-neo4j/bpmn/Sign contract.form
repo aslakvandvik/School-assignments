@@ -1,0 +1,39 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "sign-contract-1azb9nd",
+  "components": [
+    {
+      "label": "I accept all terms and conditions ",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0od11bt",
+        "columns": null
+      },
+      "id": "Field_17uufs3",
+      "key": "checkbox_zjrozx8",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Sign here",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_159kx13",
+        "columns": null
+      },
+      "id": "Field_0apsga6",
+      "key": "textfield_mo1kq",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

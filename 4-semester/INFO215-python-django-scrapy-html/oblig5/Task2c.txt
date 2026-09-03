@@ -1,0 +1,5 @@
+Count the number of universities in Wikidata
+SELECT (COUNT(?university) AS ?totalUniversities)
+WHERE {
+  ?university wdt:P31 wd:Q3918.
+}

@@ -1,0 +1,23 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "license-info-stored-1xrjni1",
+  "components": [
+    {
+      "label": "Send licence info to database",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_13xqq77",
+        "columns": null
+      },
+      "id": "Field_1l54jtb",
+      "key": "checkbox_l5txpf"
+    }
+  ],
+  "type": "default"
+}

@@ -1,0 +1,12 @@
+Birthplaces of Nobel Prize recipients (for map view)
+SELECT ?person ?personLabel ?birthplace ?birthplaceLabel ?coord
+WHERE {
+  ?person wdt:P31 wd:Q5;
+          wdt:P166 ?award;
+          wdt:P19 ?birthplace.
+
+  ?award wdt:P279* wd:Q37922.
+  ?birthplace wdt:P625 ?coord.
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}

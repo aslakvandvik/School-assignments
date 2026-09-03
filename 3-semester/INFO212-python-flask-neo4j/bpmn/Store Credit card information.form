@@ -1,0 +1,53 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "store-credit-card-information-1rtx7hp",
+  "components": [
+    {
+      "label": "Card name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0vpamep",
+        "columns": null
+      },
+      "id": "Field_1gfb9y2",
+      "key": "textfield_9cs3jj"
+    },
+    {
+      "label": "Card numer",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0i9f0bm",
+        "columns": null
+      },
+      "id": "Field_17a2xkx",
+      "key": "textfield_6tnhhm6"
+    },
+    {
+      "label": "Expiry date",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0i9f0bm",
+        "columns": null
+      },
+      "id": "Field_0bpoob6",
+      "key": "textfield_ebprve"
+    },
+    {
+      "label": "CVC",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0nlfk1b",
+        "columns": null
+      },
+      "id": "Field_19vqmo3",
+      "key": "textfield_pw4eji"
+    }
+  ],
+  "type": "default"
+}

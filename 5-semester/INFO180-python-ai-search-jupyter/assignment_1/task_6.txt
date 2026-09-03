@@ -1,0 +1,60 @@
+Here is the results i got from using grid size 100.
+
+Breadth-first
+Time:  4.851553916931152
+Nodes visited  6452
+Length:  115  Cost:  351
+
+Depth-first
+Time:  3.563060998916626
+Nodes visited  787
+Length:  737  Cost:  2129
+
+Lowest-cost-first
+Time:  5.601716995239258
+Nodes visited  6450
+Length:  130  Cost:  255
+
+Heuristic search - MaxDimH
+Time:  4.11127781867981
+Nodes visited  5064
+Length:  129  Cost:  255
+
+Heuristic search - PythagorasH (Euclidean)
+Time:  4.083868980407715
+Nodes visited  4972
+Length:  130  Cost:  255
+
+Heuristic search - ApproxMaxDimH (3xMaxDimH)
+Time:  0.1810150146484375
+Nodes visited  280
+Length:  124  Cost:  282
+
+Comparison and conclusion:
+
+Breadth-first search found the path with the fewest steps (length 115), 
+but because it does not account for costs, the path cost was relatively high (351). 
+It also visited many nodes (6452) and took almost five seconds to run.
+
+Depth-first search was faster and visited fewer nodes (787),
+but the solution was very poor: the path length was 737 and the cost 2129. 
+This shows that DFS is not a reliable strategy for this problem.
+
+Lowest-cost-first produced the optimal path cost of 255,
+with a length of 130. However, it had to explore almost as many nodes as breadth-first (6450), 
+and therefore took the longest time of all the admissible strategies (5.7 seconds).
+
+The heuristic searches improved efficiency. Using MaxDimH still gave the optimal cost of 255,
+but reduced the number of visited nodes to 5064 and time to 4.1 seconds. 
+PythagorasH (Euclidean) performed even better, with only 4972 nodes visited and slightly faster time, 
+while still giving the optimal cost of 255 and path length 130.
+
+ApproxMaxDimH (3×MaxDimH) was by far the fastest and most efficient, 
+solving the problem in 0.18 seconds with only 280 nodes visited. 
+However, it did not guarantee optimality, producing a cost of 282 instead of 255.
+
+In summary, breadth-first finds the shortest path in terms of steps but not cost, 
+depth-first is inefficient and unreliable, lowest-cost-first guarantees the optimal cost but is slow, 
+while MaxDimH and PythagorasH provides the best balance of optimality and efficiency. 
+
+Among these, the Euclidean heuristic performs best. ApproxMaxDimH is the fastest but sacrifices optimality.

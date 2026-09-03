@@ -1,0 +1,33 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "send-invoice-to-customer-0n80y6o",
+  "components": [
+    {
+      "label": "Send invoice to user e-mail",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1wgw79u",
+        "columns": null
+      },
+      "id": "Field_1qhxxhh",
+      "key": "checkbox_hoqan"
+    },
+    {
+      "label": "Send invoice to user billing adress ",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_19tto4s",
+        "columns": null
+      },
+      "id": "Field_0miygss",
+      "key": "checkbox_39syn"
+    }
+  ],
+  "type": "default"
+}

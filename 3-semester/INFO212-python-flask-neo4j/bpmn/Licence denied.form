@@ -1,0 +1,24 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "licence-denied-1623vny",
+  "components": [
+    {
+      "label": "Denied",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1rl2tq7",
+        "columns": null
+      },
+      "id": "Field_1wfnnb8",
+      "key": "textfield_l4ue5d",
+      "description": "User didnt privide valid drivers licence "
+    }
+  ],
+  "type": "default"
+}

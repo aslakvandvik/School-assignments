@@ -1,0 +1,75 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+/* Legg til styling for lenker */
+a {
+    text-decoration: none; /* Fjern understreking fra lenker */
+    color: inherit; /* Arv tekstfargen fra foreldrelementet */
+  }
+  
+  /* Legg til styling for lenker på hover */
+  a:hover {
+    text-decoration: underline; /* Legg til understreking på hover for andre lenker */
+  }
+header {
+    background-color: #72b7d5;
+    color: white;
+    align-items:center;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.page-button {
+    background-color: #72b7d5; /* Bakgrunnsfarge */
+    color: white; /* Tekstfarge */
+    padding: 10px 20px; /* Innepute for å øke knappens størrelse */
+    border: none; /* Ingen ramme rundt knappen */
+    margin-right: 0px; /* Avstand mellom knappene */
+    cursor: pointer; /* Endre musemarkøren til en peker når du holder over knappen */
+  }
+  
+  /* Endre farge når musemarkøren holder over knappen */
+  .page-button:hover {
+    background-color: #72b7d5; /* Ny bakgrunnsfarge på hover */
+  }
+  nav {
+    background-color: #72b7d5; /* Bakgrunnsfarge for navigasjonsmenyen */
+    text-align: center;
+    padding: 10px 0; /* Innepute for å plassere knappene vertikalt */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Fjern punkttegn fra listen */
+  }
+  
+  nav li {
+    display: inline; /* Plasser elementene ved siden av hverandre */
+    margin-right: 20px; /* Avstand mellom knappene */
+  }
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#infoOmOss {
+  background-color: #f7f5f5;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #72b7d5;
+    color: white;
+}
+

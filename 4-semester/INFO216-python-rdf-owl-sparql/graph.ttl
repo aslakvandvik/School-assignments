@@ -1,0 +1,28 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+REFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+:Pulp_Fiction a :Movie ;
+    :title "Pulp_Fiction" ;
+    :year "1994"^^xsd:year .
+
+:Pulp_Fiction-role-Mia_Wallace a :LeadRole ;
+    :name "Mia_Wallace" ;
+    :role_in :Pulp_Fiction .
+
+:Uma_Thurman a :Actor ;
+    :name "Uma_Thurman" ;
+    :actor_in :Pulp_Fiction ;
+    :plays_role :Pulp_Fiction-role-Mia_Wallace .
+
+:Pulp_Fiction-role-Jimmie_Dimmick a :Role ;
+    :name "Jimmie_Dimmick" ;
+    :role_in :Pulp_Fiction .
+
+:Reservoir_Dogs-role-Mr._Brown a :Role ;
+    :role_in :Reservoir_Dogs .
+
+:Quentin_Tarantino a :Actor, :Director ;
+    :name "Quentin_Tarantino" ;
+    :director_of :Pulp_Fiction, :Reservoir_Dogs ;
+    :actor_in :Pulp_Fiction, :Reservoir_Dogs ;
+    :plays_role :Pulp_Fiction-role-Jimmie_Dimmick, :Reservoir_Dogs-role-Mr._Brown .

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather Forecast Chart</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: sans-serif; }
+    .icon { width: 30px; height: 30px; }
+    .axis path, .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+  </style>
+</head>
+<body>
+  <h2>Weather Forecast</h2>
+  <svg width="800" height="400"></svg>
+
+  <script>
+    // Set up the SVG canvas dimensions and margins
+    const svg = d3.select("svg");
+    const margin = { top: 20, right: 30, bottom: 40, left: 40 };
+    const width = +svg.attr("width") - margin.left - margin.right;
+    const height = +svg.attr("height") - margin.top - margin.bottom;
+
+    // Append a group element to the SVG for the chart
+    const chart = svg.append("g")
+      .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    // Map weather conditions to corresponding icon file names
+    const iconMap = {
+      "sunny": "sunny.png",
+      "rain": "rain.png",
+      "cloudy": "cloudy.png",
+      "partlycloudy": "partlycloudy.png",
+      "night": "night.png",
+      "nightcloudy": "nightcloudy.png"
+    };
+
+    /**
+     * Load weather data from a CSV file and render the chart.
+     * Each data point contains time, temperature, precipitation, and a derived weather condition.
+     */
+    d3.csv("sampledata.csv").then(data => {
+      // Parse and process the data
+      data.forEach(d => {
+        d.time = +d.Time.split(":")[0]; // Extract the hour from the time string
+        d.temp = +d.Temperature; // Convert temperature to a number
+        d.precip = +d.Precipitation; // Convert precipitation to a number
+
+        // Determine the weather condition based on precipitation and time
+        if (d.precip >= 0.5) {
+          d.condition = "rain";
+        } else if (d.precip >= 0.1) {
+          d.condition = (d.time < 6 || d.time > 18) ? "nightcloudy" : "cloudy";
+        } else {
+          if (d.time >= 6 && d.time < 12) {
+            d.condition = "partlycloudy";
+          } else if (d.time >= 12 && d.time <= 18) {
+            d.condition = "sunny";
+          } else {
+            d.condition = "night";
+          }
+        }
+      });
+
+      // Create a linear scale for the x-axis (time of day)
+      const x = d3.scaleLinear()
+        .domain([0, 23]) // Time range from 0 to 23 hours
+        .range([0, width]); // Map to the chart width
+
+      // Create a linear scale for the y-axis (temperature)
+      const y = d3.scaleLinear()
+        .domain([0, 16]) // Temperature range from 0 to 16 degrees
+        .range([height, 0]); // Map to the chart height
+
+      // Define the x-axis with 24 ticks (one for each hour)
+      const xAxis = d3.axisBottom(x)
+        .ticks(24)
+        .tickFormat(d => d.toString().padStart(2, '0')); // Format hours as two digits
+
+      // Define the y-axis with 16 ticks (temperature in degrees)
+      const yAxis = d3.axisLeft(y)
+        .ticks(16)
+        .tickFormat(d => `${d}°`); // Append degree symbol to temperature
+
+      // Append the x-axis to the chart
+      chart.append("g")
+        .attr("transform", `translate(0,${height})`) // Position at the bottom of the chart
+        .call(xAxis);
+        
+      // Append the y-axis to the chart
+      chart.append("g").call(yAxis);
+
+      /**
+       * Add weather icons to the chart.
+       * Each icon represents a data point with its corresponding weather condition.
+       */
+      chart.selectAll(".icon")
+        .data(data)
+        .enter()
+        .append("image")
+        .attr("xlink:href", d => iconMap[d.condition]) // Set the icon based on the condition
+        .attr("x", d => x(d.time) - 10) // Position the icon horizontally
+        .attr("y", d => y(d.temp) - 10) // Position the icon vertically
+        .attr("width", 20) // Set icon width
+        .attr("height", 20); // Set icon height
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://code.highcharts.com/highcharts.js" type="text/javascript"></script>
+    <script defer src="interactivity.js"></script>
+    <script defer src="prisjakteren_chart.js"></script>
+    <title>Prisjakteren</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html"> Supersparing</a></h1>
+      <nav>
+        <ul>
+          <li>
+            <a class="page-button" href="smaspareren.html">Småspareren</a>
+          </li>
+          <li>
+            <a class="page-button" href="prisjakteren.html">Prisjakteren</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h1>Prisjakt og Bruktmarked Søk</h1>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Søk etter produkt..."
+      />
+      <button onclick="search()">Søk</button>
+      <div id="results"></div>
+    </div>
+  </main>
+  <script src="prisjakteren.js"></script>
+</body>
+</html>
+<br>
+<br>
+<main>
+    <div id="container">
+        <canvas id="expense-chart" width="400" height="200"></canvas>
+      </div>
+      <p>Ved å kjøpe flere brukte varer kan du redusere klimautslippet ditt betraktelig</p>
+</main>
+    <footer>
+      <p>&copy; 2023 Mads, Aslak, Thea, Anna, Stefan</p>
+    </footer>
+  </body>
+</html>
+
+

@@ -1,0 +1,54 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "pick-up-car-1vhj6h2",
+  "components": [
+    {
+      "label": "Pick up time ",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1tetseb",
+        "columns": null
+      },
+      "id": "Field_1kcqy2x",
+      "key": "textfield_wq9tmb",
+      "description": "Choose time to pick up car",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "airport parking",
+          "value": "1"
+        },
+        {
+          "label": "Mall parking",
+          "value": "2"
+        },
+        {
+          "label": "Downtown city parking",
+          "value": "3"
+        }
+      ],
+      "label": "Select location for pick up",
+      "type": "select",
+      "layout": {
+        "row": "Row_1qu6oh3",
+        "columns": null
+      },
+      "id": "Field_0e2s9de",
+      "key": "select_hado1d",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

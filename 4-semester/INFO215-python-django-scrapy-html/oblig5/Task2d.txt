@@ -1,0 +1,12 @@
+Norwegian poets who are also politicians, with birthplace on a map
+SELECT ?person ?personLabel ?birthplace ?birthplaceLabel ?coord
+WHERE {
+  ?person wdt:P31 wd:Q5;
+          wdt:P27 wd:Q20;
+          wdt:P106 wd:Q49757, wd:Q82955;
+          wdt:P19 ?birthplace.
+
+  ?birthplace wdt:P625 ?coord.
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}

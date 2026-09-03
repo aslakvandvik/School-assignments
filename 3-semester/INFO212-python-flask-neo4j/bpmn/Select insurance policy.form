@@ -1,0 +1,40 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "select-insurance-policy-1iofbnf",
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Classic car insurance (NOK 100)",
+          "value": "1"
+        },
+        {
+          "label": "Property damage liability(NOK 300)",
+          "value": "2"
+        },
+        {
+          "label": "Personal injury protection(NOK 250)",
+          "value": "3"
+        }
+      ],
+      "label": "Select desired insurance",
+      "type": "select",
+      "layout": {
+        "row": "Row_1742gjy",
+        "columns": null
+      },
+      "id": "Field_0k2cjzm",
+      "key": "select_9c9wj",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

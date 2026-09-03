@@ -1,0 +1,91 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "select-car-time-and-duration-0d3m4le",
+  "components": [
+    {
+      "label": "Rental location",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_01ok8h3",
+        "columns": null
+      },
+      "id": "Field_0qia7yr",
+      "key": "textfield_g2o0pr",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Return location",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_08xe293",
+        "columns": null
+      },
+      "id": "Field_0ijbd1e",
+      "key": "textfield_4j3419",
+      "validate": {
+        "required": true
+      },
+      "properties": { }
+    },
+    {
+      "label": "Start time",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_08hc2wk",
+        "columns": 8
+      },
+      "id": "Field_0cu87sx",
+      "key": "textfield_igqvtn",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Duration",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_08hc2wk",
+        "columns": 8
+      },
+      "id": "Field_1sf56ip",
+      "key": "textfield_ms68g8",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Lamborghini",
+          "value": "value"
+        },
+        {
+          "label": "Ferrari",
+          "value": "value2"
+        },
+        {
+          "label": "Tesla",
+          "value": "value3"
+        }
+      ],
+      "label": "Choose a car",
+      "type": "select",
+      "layout": {
+        "row": "Row_1oalzmy",
+        "columns": null
+      },
+      "id": "Field_0wxby32",
+      "key": "select_fwqaf"
+    }
+  ],
+  "type": "default",
+  "versionTag": "Make the same as return location "
+}

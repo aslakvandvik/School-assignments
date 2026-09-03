@@ -1,0 +1,95 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "registration-07assof",
+  "components": [
+    {
+      "label": "Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_10abpo6",
+        "columns": null
+      },
+      "id": "Field_15bbse3",
+      "key": "textfield_emo7j",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Surname",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ajcdoi",
+        "columns": null
+      },
+      "id": "Field_15zsf86",
+      "key": "textfield_j3fbs3j",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Billing address",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0xm9z3f",
+        "columns": null
+      },
+      "id": "Field_14pmx8c",
+      "key": "textfield_1x5mc8",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Phone number (+47)",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0w9l728",
+        "columns": null
+      },
+      "id": "Field_0jy93nj",
+      "key": "textfield_jjj09j",
+      "validate": {
+        "required": true,
+        "validationType": "phone"
+      }
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0w9l728",
+        "columns": null
+      },
+      "id": "Field_0n03jtq",
+      "key": "textfield_nu3mx",
+      "validate": {
+        "required": true,
+        "validationType": "email"
+      }
+    },
+    {
+      "label": "Personal ID",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0w9l728",
+        "columns": null
+      },
+      "id": "Field_0qjiggq",
+      "key": "textfield_xhqp2h",
+      "validate": {
+        "required": true,
+        "minLength": 11,
+        "maxLength": 11
+      }
+    }
+  ],
+  "type": "default"
+}

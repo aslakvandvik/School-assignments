@@ -1,0 +1,63 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "save-customer-info-1bbha1j",
+  "components": [
+    {
+      "label": "First Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_17rswpx",
+        "columns": null
+      },
+      "id": "Field_0suw1fg",
+      "key": "textfield_xb59ph"
+    },
+    {
+      "label": "Sir Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1yw1v6y",
+        "columns": null
+      },
+      "id": "Field_13rmva2",
+      "key": "textfield_jv9t6j"
+    },
+    {
+      "label": "Id Number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ng8ihm",
+        "columns": null
+      },
+      "id": "Field_1ihcxji",
+      "key": "textfield_ttjgbe"
+    },
+    {
+      "label": "E-mail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0faz1v5",
+        "columns": null
+      },
+      "id": "Field_1jf5oj8",
+      "key": "textfield_c1kw3v"
+    },
+    {
+      "label": "Phone number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1nhp6hw",
+        "columns": null
+      },
+      "id": "Field_01e2xf4",
+      "key": "textfield_qbjh2r"
+    }
+  ],
+  "type": "default"
+}

@@ -1,0 +1,36 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "meet-emploee-1kswrmm",
+  "components": [
+    {
+      "values": [
+        {
+          "label": "yes",
+          "value": "1"
+        },
+        {
+          "label": "no",
+          "value": "2"
+        }
+      ],
+      "label": "met up?",
+      "type": "select",
+      "layout": {
+        "row": "Row_0uf57es",
+        "columns": null
+      },
+      "id": "Field_10dlnh3",
+      "key": "select_nx51e5",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

@@ -1,0 +1,33 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "hand-over-keys-0halb97",
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "value"
+        },
+        {
+          "label": "No",
+          "value": "value2"
+        }
+      ],
+      "label": "Are keys handed to customer?",
+      "type": "select",
+      "layout": {
+        "row": "Row_1dhcth1",
+        "columns": null
+      },
+      "id": "Field_06ncnmi",
+      "key": "select_on98xk"
+    }
+  ],
+  "type": "default"
+}

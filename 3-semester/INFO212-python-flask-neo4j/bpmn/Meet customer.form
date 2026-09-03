@@ -1,0 +1,36 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "meet-customer-1rjzu2k",
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "value"
+        },
+        {
+          "label": "No",
+          "value": "value2"
+        }
+      ],
+      "label": "Met customer?",
+      "type": "select",
+      "layout": {
+        "row": "Row_18sbdg0",
+        "columns": null
+      },
+      "id": "Field_0vl1qvu",
+      "key": "select_h8yo4o",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

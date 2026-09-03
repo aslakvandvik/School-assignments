@@ -1,0 +1,202 @@
+@prefix ns1: <http://ex.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://ex.org/a/[/r/Causes/,/c/en/committing_perjury/,/c/en/indictment/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment> ;
+    ns1:p <http://ex.org/r/Causes> ;
+    ns1:s <http://ex.org/c/en/committing_perjury> .
+
+<http://ex.org/a/[/r/IsA/,/c/en/murder_charge/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/IsA> ;
+    ns1:s <http://ex.org/c/en/murder_charge/n/wn/communication> .
+
+<http://ex.org/a/[/r/IsA/,/c/en/true_bill/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/IsA> ;
+    ns1:s <http://ex.org/c/en/true_bill/n/wn/communication> .
+
+<http://ex.org/a/[/r/RelatedTo/,/c/sh/optužba/n/,/c/en/indictment/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment> ;
+    ns1:p <http://ex.org/r/RelatedTo> ;
+    ns1:s <http://ex.org/c/sh/optužba/n> .
+
+<http://ex.org/a/[/r/RelatedTo/,/c/sh/optužnica/n/,/c/en/indictment/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment> ;
+    ns1:p <http://ex.org/r/RelatedTo> ;
+    ns1:s <http://ex.org/c/sh/optužnica/n> .
+
+<http://ex.org/a/[/r/Synonym/,/c/ca/condemnació/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/ca/condemnació/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/en/bill_of_indictment/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/en/bill_of_indictment/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/es/inculpación/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/es/inculpación/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/fa/اتهام/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/fa/اتهام/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/fi/syyte/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/fi/syyte/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/fi/syytekirjelmä/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/fi/syytekirjelmä/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/fr/accusation/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/fr/accusation/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/id/dakwaan/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/id/dakwaan/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/id/tuduhan/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/id/tuduhan/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/ja/告発/n/,/c/en/indictment/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/ja/告発/n> .
+
+<http://ex.org/a/[/r/Synonym/,/c/ja/起訴/a/,/c/en/indictment/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/ja/起訴/a> .
+
+<http://ex.org/a/[/r/Synonym/,/c/ms/dakwaan/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/ms/dakwaan/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/ms/indikmen/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/ms/indikmen/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/ms/tuduhan/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/ms/tuduhan/n/wn/communication> .
+
+<http://ex.org/a/[/r/Synonym/,/c/pl/akt_oskarżenia/n/wn/communication/,/c/en/indictment/n/wn/communication/]> a ns1:Edge ;
+    ns1:o <http://ex.org/c/en/indictment/n/wn/communication> ;
+    ns1:p <http://ex.org/r/Synonym> ;
+    ns1:s <http://ex.org/c/pl/akt_oskarżenia/n/wn/communication> .
+
+<http://ex.org/c/ca/condemnació/n/wn/communication> a ns1:Node ;
+    rdfs:label "condemnació" .
+
+<http://ex.org/c/en/bill_of_indictment/n/wn/communication> a ns1:Node ;
+    rdfs:label "bill of indictment" .
+
+<http://ex.org/c/en/committing_perjury> a ns1:Node ;
+    rdfs:label "committing perjury" .
+
+<http://ex.org/c/en/murder_charge/n/wn/communication> a ns1:Node ;
+    rdfs:label "murder charge" .
+
+<http://ex.org/c/en/true_bill/n/wn/communication> a ns1:Node ;
+    rdfs:label "true bill" .
+
+<http://ex.org/c/es/inculpación/n/wn/communication> a ns1:Node ;
+    rdfs:label "inculpación" .
+
+<http://ex.org/c/fa/اتهام/n/wn/communication> a ns1:Node ;
+    rdfs:label "اتهام" .
+
+<http://ex.org/c/fi/syyte/n/wn/communication> a ns1:Node ;
+    rdfs:label "syyte" .
+
+<http://ex.org/c/fi/syytekirjelmä/n/wn/communication> a ns1:Node ;
+    rdfs:label "syytekirjelmä" .
+
+<http://ex.org/c/fr/accusation/n/wn/communication> a ns1:Node ;
+    rdfs:label "accusation" .
+
+<http://ex.org/c/id/dakwaan/n/wn/communication> a ns1:Node ;
+    rdfs:label "dakwaan" .
+
+<http://ex.org/c/id/tuduhan/n/wn/communication> a ns1:Node ;
+    rdfs:label "tuduhan" .
+
+<http://ex.org/c/ja/告発/n> a ns1:Node ;
+    rdfs:label "告発" .
+
+<http://ex.org/c/ja/起訴/a> a ns1:Node ;
+    rdfs:label "起訴" .
+
+<http://ex.org/c/ms/dakwaan/n/wn/communication> a ns1:Node ;
+    rdfs:label "dakwaan" .
+
+<http://ex.org/c/ms/indikmen/n/wn/communication> a ns1:Node ;
+    rdfs:label "indikmen" .
+
+<http://ex.org/c/ms/tuduhan/n/wn/communication> a ns1:Node ;
+    rdfs:label "tuduhan" .
+
+<http://ex.org/c/pl/akt_oskarżenia/n/wn/communication> a ns1:Node ;
+    rdfs:label "akt oskarżenia" .
+
+<http://ex.org/c/sh/optužba/n> a ns1:Node ;
+    rdfs:label "optužba" .
+
+<http://ex.org/c/sh/optužnica/n> a ns1:Node ;
+    rdfs:label "optužnica" .
+
+<http://ex.org/r/Causes> a ns1:Relation ;
+    rdfs:label "Causes" .
+
+<http://ex.org/r/IsA> a ns1:Relation ;
+    rdfs:label "IsA" .
+
+<http://ex.org/r/RelatedTo> a ns1:Relation ;
+    rdfs:label "RelatedTo" .
+
+<http://ex.org/c/en/indictment> a ns1:Node ;
+    rdfs:label "an indictment",
+        "indictment" ;
+    ns1:t <http://ex.org/a/[/r/Causes/,/c/en/committing_perjury/,/c/en/indictment/]>,
+        <http://ex.org/a/[/r/IsA/,/c/en/murder_charge/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/IsA/,/c/en/true_bill/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/RelatedTo/,/c/sh/optužba/n/,/c/en/indictment/]>,
+        <http://ex.org/a/[/r/RelatedTo/,/c/sh/optužnica/n/,/c/en/indictment/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/ca/condemnació/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/en/bill_of_indictment/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/es/inculpación/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/fa/اتهام/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/fi/syyte/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/fi/syytekirjelmä/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/fr/accusation/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/id/dakwaan/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/id/tuduhan/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/ja/告発/n/,/c/en/indictment/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/ja/起訴/a/,/c/en/indictment/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/ms/dakwaan/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/ms/indikmen/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/ms/tuduhan/n/wn/communication/,/c/en/indictment/n/wn/communication/]>,
+        <http://ex.org/a/[/r/Synonym/,/c/pl/akt_oskarżenia/n/wn/communication/,/c/en/indictment/n/wn/communication/]> .
+
+<http://ex.org/c/en/indictment/n/wn/communication> a ns1:Node ;
+    rdfs:label "indictment" .
+
+<http://ex.org/r/Synonym> a ns1:Relation ;
+    rdfs:label "Synonym" .
+

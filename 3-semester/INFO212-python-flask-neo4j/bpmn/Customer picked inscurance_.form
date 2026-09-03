@@ -1,0 +1,36 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "customer-picked-inscurance-0bqu8lz",
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "value"
+        },
+        {
+          "label": "No",
+          "value": "value2"
+        }
+      ],
+      "label": "Has customer picked insurance?",
+      "type": "select",
+      "layout": {
+        "row": "Row_0khliwz",
+        "columns": null
+      },
+      "id": "Field_11uofc5",
+      "key": "select_758ch",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

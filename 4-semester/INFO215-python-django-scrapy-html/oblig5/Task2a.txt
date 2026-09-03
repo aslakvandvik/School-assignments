@@ -1,0 +1,12 @@
+All American politicians whose fathers were also politicians
+SELECT ?person ?personLabel ?father ?fatherLabel
+WHERE {
+  ?person wdt:P31 wd:Q5;
+          wdt:P27 wd:Q30;
+          wdt:P106 wd:Q82955;
+          wdt:P22 ?father.
+
+  ?father wdt:P106 wd:Q82955.
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}

@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #004c99; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+}
+
+/* Header title and description */
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Positioning the SVG circle in the top left corner */
+header svg {
+    position: absolute;
+    top: 20px;
+    left: 20px; /* Move to the left corner */
+}
+
+/* Main content section (flex layout) */
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Content box styles */
+.content, .table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+/* Title of the sections */
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Adjust table header background */
+th {
+    background-color: #004c99;
+    color: white;
+}
+
+/* SVG Logo styling */
+svg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+

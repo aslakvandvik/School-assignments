@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- Major project properties -->
+  <groupId>no.uib.this OOP course</groupId> <!-- must match package of Main class -->
+  <artifactId>this OOP courseGridViewer</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>this OOP course Grid Lab</name>
+  <url>https://git.app.uib.no/ii/this OOP course/26v/students/lab-5-GridViewer</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>25</maven.compiler.source>
+    <maven.compiler.target>25</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.5.2</version> <!-- Use the latest version -->
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-plugin-api</artifactId>
+      <version>3.9.12</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

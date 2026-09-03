@@ -1,0 +1,23 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "24b1c55"
+  },
+  "schemaVersion": 16,
+  "id": "cancel-order-16izgd1",
+  "components": [
+    {
+      "label": "Cancel order?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1ylfu5l",
+        "columns": null
+      },
+      "id": "Field_1mj3vm6",
+      "key": "checkbox_zwqz4d"
+    }
+  ],
+  "type": "default"
+}

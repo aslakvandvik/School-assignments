@@ -1,0 +1,12 @@
+Norwegian poets born after 1950
+SELECT ?poet ?poetLabel ?birthDate
+WHERE {
+  ?poet wdt:P31 wd:Q5;
+        wdt:P106 wd:Q49757;
+        wdt:P27 wd:Q20;
+        wdt:P569 ?birthDate.
+
+  FILTER(YEAR(?birthDate) > 1950)
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
