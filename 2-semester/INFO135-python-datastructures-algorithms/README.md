@@ -4,4 +4,5 @@
 - **data-structures/** — own implementations: linked list, stack, queue, binary tree, binary search tree, graph, Dijkstra's algorithm
 - **sorting-algorithms/** — bubble, selection, merge, quick, heap sort, plus a greedy algorithm
 - **lab-exercises/** — weekly lab exercises
+- `memoization.py` — own exercise on memoization
 
