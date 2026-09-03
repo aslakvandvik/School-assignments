@@ -6,3 +6,4 @@ target/
 venv/
 .DS_Store
 ~$*
+/.github/
