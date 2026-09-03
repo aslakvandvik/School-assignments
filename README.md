@@ -26,8 +26,5 @@ Programming coursework from my Bachelor's in Informatics at the University of Be
 ## 7. semester
 - **INF226-python-pwntools-security** — Python, pwntools (applied security exercises)
 
-## misc
-- **hackathon-html-css-js** — HTML, CSS, JavaScript (a small hackathon project)
-
 ---
 Lecture notes, exam papers, textbooks, and other third-party/copyrighted course material have been left out. A few folders were renamed to remove references to specific course codes.
