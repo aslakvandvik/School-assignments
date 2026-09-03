@@ -1,6 +1,6 @@
 # School Assignments
 
-Programming coursework from my Bachelor's in Informatics at the University of Bergen, organized by semester and course. Each course folder name notes the main technologies used. Non-programming courses (math, statistics, economics, and write-up-only courses) are left out.
+Programming coursework from my Bachelor's in Information Science at the University of Bergen, organized by semester and course. Each course folder name notes the main technologies used. Non-programming courses (math, statistics, economics, and write-up-only courses) are left out.
 
 ## 1. semester
 - **INFO132-python-html-sql** — Python, HTML, XML, SQL (intro programming)
